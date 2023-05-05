@@ -1,0 +1,3 @@
+INDEX VERSION 1.132
+C:\Users\DESARROLLADOR 8.0\Desktop\Modal\Platzi\ORACLE\EclipseWoksplace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\141730439.index
+\gerenciador\src\main\java

@@ -1,0 +1,16 @@
+127.0.0.1 - - [26/Apr/2023:21:04:58 -0500] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:05:06 -0500] "GET /gerenciador/nuevaEmpresa?nombre=Alura HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:05:06 -0500] "GET /favicon.ico HTTP/1.1" 404 699
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:12:38 -0500] "GET /gerenciador/nuevaEmpresa?nombre=Alura HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:12:52 -0500] "GET /gerenciador/nuevaEmpresa HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:12:56 -0500] "GET /gerenciador/nuevaEmpresa HTTP/1.1" 200 59
+127.0.0.1 - - [26/Apr/2023:21:13:12 -0500] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:13:18 -0500] "GET /gerenciador/nuevaEmpresa HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:13:25 -0500] "GET /gerenciador/nuevaEmpresa HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:13:27 -0500] "GET /gerenciador/nuevaEmpresa HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:14:15 -0500] "GET /gerenciador/nuevaEmpresa.html HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:15:01 -0500] "GET /gerenciador/formNuevaEmpresa.html HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:15:25 -0500] "GET /gerenciador/nuevaEmpresa?nombre=hola HTTP/1.1" 200 59
+127.0.0.1 - - [26/Apr/2023:21:16:43 -0500] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:54:27 -0500] "GET /gerenciador/formNuevaEmpresa.html HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [26/Apr/2023:21:54:38 -0500] "POST /gerenciador/nuevaEmpresa HTTP/1.1" 200 60

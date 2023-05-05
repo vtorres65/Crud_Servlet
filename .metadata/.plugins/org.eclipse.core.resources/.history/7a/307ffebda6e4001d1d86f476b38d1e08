@@ -1,0 +1,17 @@
+package com.alura.gerenciador.servlet;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Db {
+
+	private static List<Empresa> listaEmpresas = new ArrayList<>();
+	public void agregarEmpresa(Empresa empresa) {
+		Db.listaEmpresas.add(empresa);
+	}
+	
+	public List<Empresa> getEmpresas(){
+		return listaEmpresas;
+	}
+
+}

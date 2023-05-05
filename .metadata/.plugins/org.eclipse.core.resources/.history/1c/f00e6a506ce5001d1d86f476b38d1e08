@@ -1,0 +1,11 @@
+<%
+	// scriptlet, = es la parte lógica que podemos agregarle a nuestro HTML.
+	String empresa = "Alura";
+
+	System.out.println(empresa);
+%>
+
+
+<html><body>
+Nueva empresa <% = empresa %> registrada! 
+</html></body>

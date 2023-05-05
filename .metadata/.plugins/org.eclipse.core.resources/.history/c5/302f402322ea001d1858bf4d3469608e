@@ -1,0 +1,36 @@
+package com.alura.gerenciador.servlet;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+
+public class NuevaEmpresaServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		System.out.println("nueva empresa registrada");
+		
+		String nombreEmpresa = request.getParameter("nombre");
+		String paramFechaApertura = request.getParameter("fecha");
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");
+		Empresa empresa = new Empresa();
+		empresa.setNombre(nombreEmpresa);
+		
+		Db baseDeDatos = new Db();
+		baseDeDatos.agregarEmpresa(empresa);
+		
+		//llamar al jsp
+		RequestDispatcher rd = request.getRequestDispatcher("/nuevaEmpresaRegistrada.jsp");
+		request.setAttribute("empresa", empresa.getNombre());
+		rd.forward(request, response);
+	}
+
+}
