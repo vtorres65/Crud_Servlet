@@ -1,0 +1,7 @@
+127.0.0.1 - - [09/May/2023:15:33:35 -0500] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [09/May/2023:15:40:20 -0500] "GET /gerenciador/entrada?accion=MostrarEmpresa&id=1 HTTP/1.1" 200 508
+0:0:0:0:0:0:0:1 - - [09/May/2023:15:40:20 -0500] "GET /favicon.ico HTTP/1.1" 404 699
+0:0:0:0:0:0:0:1 - - [09/May/2023:15:41:02 -0500] "GET /gerenciador/entrada?accion=NuevaEmpresaForm HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [09/May/2023:15:41:04 -0500] "GET /gerenciador/entrada?accion=NuevaEmpresaForm HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [09/May/2023:15:41:12 -0500] "POST /gerenciador/entrada HTTP/1.1" 500 1290
+0:0:0:0:0:0:0:1 - - [09/May/2023:15:43:34 -0500] "GET /gerenciador/WEB-INF/web.xml HTTP/1.1" 404 611
