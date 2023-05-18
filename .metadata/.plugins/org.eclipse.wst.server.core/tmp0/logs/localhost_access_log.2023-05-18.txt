@@ -1,0 +1,11 @@
+127.0.0.1 - - [18/May/2023:12:43:01 -0500] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [18/May/2023:12:43:11 -0500] "GET /gerenciador/entrada?accion=ListaEmpresas HTTP/1.1" 404 711
+0:0:0:0:0:0:0:1 - - [18/May/2023:12:43:11 -0500] "GET /favicon.ico HTTP/1.1" 404 699
+0:0:0:0:0:0:0:1 - - [18/May/2023:14:07:39 -0500] "GET /gerenciador/entrada?accion=ListaEmpresas HTTP/1.1" 404 711
+0:0:0:0:0:0:0:1 - - [18/May/2023:14:07:55 -0500] "GET /gerenciador/entrada?accion=LoginForm HTTP/1.1" 404 711
+0:0:0:0:0:0:0:1 - - [18/May/2023:14:08:24 -0500] "GET /gerenciador/entrada?accion=LoginForm HTTP/1.1" 404 711
+127.0.0.1 - - [18/May/2023:14:09:18 -0500] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [18/May/2023:14:09:21 -0500] "GET /gerenciador/entrada?accion=LoginForm HTTP/1.1" 404 711
+0:0:0:0:0:0:0:1 - - [18/May/2023:14:09:29 -0500] "GET /gerenciador/entrada?accion=LoginForm HTTP/1.1" 404 711
+0:0:0:0:0:0:0:1 - - [18/May/2023:14:09:30 -0500] "GET /gerenciador/entrada?accion=LoginForm HTTP/1.1" 404 711
+0:0:0:0:0:0:0:1 - - [18/May/2023:14:10:07 -0500] "GET /gerenciador/entrada?accion=LoginForm HTTP/1.1" 404 711

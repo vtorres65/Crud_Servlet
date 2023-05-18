@@ -11,6 +11,9 @@
 <title>Java Standard Taglib</title>
 </head>
 <body>
+
+	<c:import url="logout-parcial.jsp"></c:import>
+	
 	Lista de empresas: <br />
 	
 	<ul>

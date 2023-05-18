@@ -4,37 +4,36 @@
   <welcome-file-list>
     <welcome-file>Bienvenido.html</welcome-file>
   </welcome-file-list>
-
-  <login-config>
-    <auth-method>BASIC</auth-method>
-  </login-config>
-
-  <security-role>
-      <role-name>ADMINISTRADOR</role-name>
-  </security-role>
-
-  <security-role>
-      <role-name>USUARIO</role-name>
-  </security-role>
-
-  <security-constraint>
-      <web-resource-collection>
-          <web-resource-name>acceso controlador</web-resource-name>
-          <url-pattern>/entrada</url-pattern>
-      </web-resource-collection>
-      <auth-constraint>
-          <role-name>ADMINISTRADOR</role-name>
-      </auth-constraint>
-  </security-constraint>
-  
-  <security-constraint>
-        <web-resource-collection>
-            <web-resource-name>acceso a páginas html</web-resource-name>
-            <url-pattern>*.html</url-pattern>
-        </web-resource-collection>
-        <auth-constraint>
-            <role-name>USUARIO</role-name>
-        </auth-constraint>
-  </security-constraint>
-    
+  <servlet>
+    <servlet-name>HolaMundoServlet</servlet-name>
+    <servlet-class>com.alura.gerenciador.servlet.HolaMundoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HolaMundoServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>MF</filter-name>
+    <filter-class>com.alura.generador.servlet.MonitoreoFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>MF</filter-name>
+    <url-pattern>/entrada</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>AF</filter-name>
+    <filter-class>com.alura.generador.servlet.AutorizacionFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AF</filter-name>
+    <url-pattern>/entrada</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>CF</filter-name>
+    <filter-class>com.alura.generador.servlet.AutorizacionFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CF</filter-name>
+    <url-pattern>/entrada</url-pattern>
+  </filter-mapping>
 </web-app>
